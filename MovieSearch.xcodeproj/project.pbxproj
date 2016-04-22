@@ -11,6 +11,12 @@
 		1A4A23461CCAA554003A4350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23441CCAA554003A4350 /* Main.storyboard */; };
 		1A4A23481CCAA554003A4350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23471CCAA554003A4350 /* Assets.xcassets */; };
 		1A4A234B1CCAA554003A4350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23491CCAA554003A4350 /* LaunchScreen.storyboard */; };
+		C45217CF1CCAB2450085B8EA /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45217CE1CCAB2450085B8EA /* MovieTableViewCell.swift */; };
+		C45217D11CCAB2B50085B8EA /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45217D01CCAB2B50085B8EA /* MovieListTableViewController.swift */; };
+		C45217D31CCAB3050085B8EA /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45217D21CCAB3050085B8EA /* Movie.swift */; };
+		C45217D51CCAB52E0085B8EA /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45217D41CCAB52E0085B8EA /* MovieController.swift */; };
+		C45217D71CCAB5370085B8EA /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45217D61CCAB5370085B8EA /* NetworkController.swift */; };
+		C45217D91CCABFA10085B8EA /* ImageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45217D81CCABFA10085B8EA /* ImageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +26,12 @@
 		1A4A23471CCAA554003A4350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A4A234A1CCAA554003A4350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A4A234C1CCAA554003A4350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C45217CE1CCAB2450085B8EA /* MovieTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		C45217D01CCAB2B50085B8EA /* MovieListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		C45217D21CCAB3050085B8EA /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		C45217D41CCAB52E0085B8EA /* MovieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
+		C45217D61CCAB5370085B8EA /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		C45217D81CCABFA10085B8EA /* ImageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,12 @@
 			children = (
 				1A4A23401CCAA554003A4350 /* AppDelegate.swift */,
 				1A4A23441CCAA554003A4350 /* Main.storyboard */,
+				C45217D21CCAB3050085B8EA /* Movie.swift */,
+				C45217D41CCAB52E0085B8EA /* MovieController.swift */,
+				C45217D61CCAB5370085B8EA /* NetworkController.swift */,
+				C45217D01CCAB2B50085B8EA /* MovieListTableViewController.swift */,
+				C45217CE1CCAB2450085B8EA /* MovieTableViewCell.swift */,
+				C45217D81CCABFA10085B8EA /* ImageController.swift */,
 				1A4A23471CCAA554003A4350 /* Assets.xcassets */,
 				1A4A23491CCAA554003A4350 /* LaunchScreen.storyboard */,
 				1A4A234C1CCAA554003A4350 /* Info.plist */,
@@ -132,6 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45217D91CCABFA10085B8EA /* ImageController.swift in Sources */,
+				C45217D11CCAB2B50085B8EA /* MovieListTableViewController.swift in Sources */,
+				C45217D51CCAB52E0085B8EA /* MovieController.swift in Sources */,
+				C45217D71CCAB5370085B8EA /* NetworkController.swift in Sources */,
+				C45217CF1CCAB2450085B8EA /* MovieTableViewCell.swift in Sources */,
+				C45217D31CCAB3050085B8EA /* Movie.swift in Sources */,
 				1A4A23411CCAA554003A4350 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +306,7 @@
 				1A4A23511CCAA554003A4350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
