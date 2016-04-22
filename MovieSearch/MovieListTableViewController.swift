@@ -37,6 +37,8 @@ class MovieListTableViewController: UITableViewController, UISearchBarDelegate {
                     self.tableView.reloadData()
                 }
         }
+        
+        searchBar.resignFirstResponder()
     }
 
     // MARK: - Table view data source
